@@ -1,0 +1,6 @@
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\bin\Debug\ReverseInference.exe
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\bin\Debug\ReverseInference.pdb
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csprojAssemblyReference.cache
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csproj.CoreCompileInputs.cache
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.exe
+C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.pdb
