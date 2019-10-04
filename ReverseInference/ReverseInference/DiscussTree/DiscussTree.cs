@@ -21,12 +21,12 @@ namespace ReverseInference.DiscussTree.Tree
             
             if (_root == null)
             {
-                _root = newNode;
-
                 var conditionNode = new Node(discuss.ObjectName, discuss.Condition);
-                conditionNode.Parent = _root;
+                _root = conditionNode;
+
+                newNode.Parent = _root;
                 
-                newNode.AddReference(conditionNode);
+                conditionNode.AddReference(newNode);
                 return;
             }
 
