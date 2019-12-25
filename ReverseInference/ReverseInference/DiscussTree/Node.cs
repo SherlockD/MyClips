@@ -1,28 +1,38 @@
+using System;
 using System.Collections.Generic;
 
-namespace ReverseInference.DiscussTree
+namespace ReverseInference.Tree
 {
     public class Node
     {
-        public string NodeObject;
+        public string Question;
         public string Feature;
 
+        public bool IsQuestion;
+
         public Node Parent;
-        private List<Node> _references = new List<Node>();
-        
+
+        public int Index;
+
+        protected List<Node> _references = new List<Node>();
+
         public Node() {}
 
-        public Node(string nodeObject, string feature)
+        public Node(string feature,int index, bool isQuestion = false, string question = null)
         {
-            NodeObject = nodeObject;
             Feature = feature;
+
+            IsQuestion = isQuestion;
+            Question = question;
+
+            Index = index;
         }
 
         public void AddReference(Node node)
         {
             _references.Add(node);
         }
-        
+
         public Node GetReference(string feature) => _references.Find(node => node.Feature == feature);
         public List<Node> GetReferences() => _references;
 

@@ -12,14 +12,19 @@ namespace ReverseInference.Lecser.Lecsems
 
         protected override void ActionMethod(string[] arguments)
         {
-            var discuss = new Discuss(arguments[1], arguments[2], arguments[3]);
+            var discuss = new Discuss(arguments[1], arguments[2]);
             
-            DiscussTree.Tree.DiscussTree.Instance.AddDiscuss(discuss);
+            DiscussTree.Instance.AddDiscuss(discuss);
         }
 
-        protected override void OnBadInput()
+        protected override void OnBadInput(string message)
         {
-            Console.WriteLine("Ошибка при добавлении предиката, проверьте ввод");
+            Console.WriteLine($"Error by adding a rule: {message} ");
+        }
+
+        public override void PrintDescription()
+        {
+            Console.WriteLine("defrule: Добавить новое правило");
         }
     }
 }

@@ -1,12 +1,16 @@
 ﻿using System;
-using ReverseInference.DiscussTree.Tree;
-using ReverseInference.Fact;
+using System.Text;
 using ReverseInference.Lecser;
 
 internal class Program
 {
     public static void Main(string[] args)
     {
+        Console.InputEncoding = Encoding.UTF8;
+        Console.OutputEncoding = Encoding.UTF8;
+
+        Console.WriteLine(Console.InputEncoding);
+        
         InitializeComponents();
         
         int menu = -1;
@@ -15,7 +19,7 @@ internal class Program
 
         while (menu != 0)
         {
-            Console.WriteLine("1)Ввести комманду\n0)Выход");
+            Console.WriteLine("1)Input command\n0)Exit");
 
             menu = Convert.ToInt32(Console.ReadLine());
             
@@ -35,7 +39,6 @@ internal class Program
 
     private static void InitializeComponents()
     {
-        new FactsLibrary();
         new DiscussTree();
     }
 }

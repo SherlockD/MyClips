@@ -13,7 +13,6 @@
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <PlatformTarget>AnyCPU</PlatformTarget>
         <DebugSymbols>true</DebugSymbols>
         <DebugType>full</DebugType>
         <Optimize>false</Optimize>
@@ -41,19 +40,18 @@
         <Compile Include="DiscussTree\DiscussTree.cs" />
         <Compile Include="DiscussTree\Node.cs" />
         <Compile Include="Discuss\Discuss.cs" />
-        <Compile Include="Facts\Fact.cs" />
-        <Compile Include="Facts\FactsLibrary.cs" />
         <Compile Include="Lecser\AbstractLecsema.cs" />
         <Compile Include="Lecser\CommandManager.cs" />
-        <Compile Include="Lecser\Lecsems\AddFactLecsema.cs" />
         <Compile Include="Lecser\Lecsems\AddRuleLecsema.cs" />
-        <Compile Include="Lecser\Lecsems\GetFactsLecsema.cs" />
         <Compile Include="Lecser\Lecsems\GetRulesLecsema.cs" />
-        <Compile Include="Lecser\Lecsems\LogicalOutputLecsema.cs" />
-        <Compile Include="Lecser\Lecsems\ReverseLogicalOutputLecsema.cs" />
         <Compile Include="Lecser\Lecser.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Lecser\Lecsems\RunExpertSystemLecsema.cs" />
+        <Compile Include="Lecser\Lecsems\LoadRulesFromFileLecsema.cs" />
+        <Compile Include="Lecser\Lecsems\PrintTreeLecsema.cs" />
+        <Compile Include="Discuss\Question.cs" />
+        <Compile Include="Lecser\Lecsems\GetHelpLecsema.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

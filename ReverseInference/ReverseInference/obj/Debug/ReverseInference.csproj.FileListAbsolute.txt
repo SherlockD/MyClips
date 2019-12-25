@@ -1,12 +1,17 @@
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\bin\Debug\ReverseInference.exe
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\bin\Debug\ReverseInference.pdb
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csprojAssemblyReference.cache
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csproj.CoreCompileInputs.cache
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.exe
-C:\Users\Лучший человек\RiderProjects\ReverseInference\ReverseInference\obj\Debug\ReverseInference.pdb
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\bin\Debug\ReverseInference.exe
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\bin\Debug\ReverseInference.pdb
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csprojAssemblyReference.cache
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\obj\Debug\ReverseInference.csproj.CoreCompileInputs.cache
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\obj\Debug\ReverseInference.exe
-C:\Users\User\Documents\MyClips\ReverseInference\ReverseInference\obj\Debug\ReverseInference.pdb
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/bin/Debug/ReverseInference.exe
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/bin/Debug/ReverseInference.pdb
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/obj/Debug/ReverseInference.csprojAssemblyReference.cache
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/obj/Debug/ReverseInference.csproj.CoreCompileInputs.cache
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/obj/Debug/ReverseInference.exe
+C:/Users/Лучший человек/RiderProjects/ReverseInference/ReverseInference/obj/Debug/ReverseInference.pdb
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/bin/Debug/ReverseInference.exe
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/bin/Debug/ReverseInference.pdb
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.csprojAssemblyReference.cache
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.csproj.CoreCompileInputs.cache
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.exe
+C:/Users/User/Documents/MyClips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.pdb
+/Users/sherlockd/NET projects/my-clips/ReverseInference/ReverseInference/bin/Debug/ReverseInference.exe
+/Users/sherlockd/NET projects/my-clips/ReverseInference/ReverseInference/bin/Debug/ReverseInference.pdb
+/Users/sherlockd/NET projects/my-clips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.csprojAssemblyReference.cache
+/Users/sherlockd/NET projects/my-clips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.exe
+/Users/sherlockd/NET projects/my-clips/ReverseInference/ReverseInference/obj/Debug/ReverseInference.pdb

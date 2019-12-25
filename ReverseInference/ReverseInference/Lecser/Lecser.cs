@@ -13,7 +13,7 @@ namespace ReverseInference.Lecser
         
         public void InputCommandFromConsole()
         {
-            string[] input = Console.ReadLine()?.Split('(', ')', ',');
+            string[] input = Console.ReadLine()?.Split('(', ')', ',', ' ');
             
             _commandManager.Execute(input);
         }

@@ -23,18 +23,18 @@ namespace ReverseInference.Lecser
             }
             else
             {
-                Console.WriteLine("Данной комманды не существует");
+                Console.WriteLine("This command doesen't exist");
             }
         }
         
         public void InitializeLecsemas()
         {
-            _lecsemas.Add(new AddFactLecsema());
             _lecsemas.Add(new AddRuleLecsema());
-            _lecsemas.Add(new GetFactsLecsema());
             _lecsemas.Add(new GetRulesLecsema());
-            _lecsemas.Add(new LogicalOutputLecsema());
-            _lecsemas.Add(new ReverseLogicalOutputLecsema());
+            _lecsemas.Add(new RunExpertSystemLecsema());
+            _lecsemas.Add(new LoadRulesFromFileLecsema());
+            _lecsemas.Add(new PrintTreeLecsema());
+            _lecsemas.Add(new GetHelpLecsema(_lecsemas.ToArray()));
             
             _lecsemas.ForEach((lecsema) => lecsema.Initialize());
         }

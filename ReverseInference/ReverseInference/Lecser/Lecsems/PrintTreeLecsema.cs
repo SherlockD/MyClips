@@ -1,28 +1,30 @@
-using System;
+﻿using System;
 using ReverseInference.Tree;
 
 namespace ReverseInference.Lecser.Lecsems
 {
-    public class GetRulesLecsema : AbstractLecsema
+    public class PrintTreeLecsema : AbstractLecsema
     {
+        private DiscussTree _tree = DiscussTree.Instance;
+
         public override void Initialize()
         {
-            Initialize("rules-list");
+            Initialize("print-tree");
         }
 
         protected override void ActionMethod(string[] arguments)
         {
-            DiscussTree.Instance.PrintTree();
+            _tree.PrintTree();   
         }
 
         protected override void OnBadInput(string message)
         {
-            Console.WriteLine($"Error by output a rule: {message} ");
+            Console.WriteLine($"Something go wrong, on printing tree: {message}");
         }
 
         public override void PrintDescription()
         {
-            Console.WriteLine("rules-list: Вывести список правил");
+            Console.WriteLine($"{CommandName}: Вывести дерево");
         }
     }
 }

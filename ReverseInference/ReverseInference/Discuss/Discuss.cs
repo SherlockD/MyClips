@@ -2,13 +2,12 @@ namespace ReverseInference.DiscussNode
 {
     public class Discuss
     {
-        public string ObjectName;
         public string Feature;
         public string Condition;
+        public float Chance;
 
-        public Discuss(string objectName, string feature, string condition)
+        public Discuss(string feature, string condition)
         {
-            ObjectName = objectName;
             Feature = feature;
             Condition = condition;
         }

@@ -14,8 +14,9 @@ namespace ReverseInference.Lecser
         }
 
         public abstract void Initialize();
+        public abstract void PrintDescription();
         protected abstract void ActionMethod(string[] arguments);
-        protected abstract void OnBadInput();
+        protected abstract void OnBadInput(string message);
 
         public virtual void Dispatch(string[] arguments)
         {
@@ -23,9 +24,9 @@ namespace ReverseInference.Lecser
             {
                 _action?.Invoke(arguments);
             }
-            catch
+            catch(Exception e)
             {
-                OnBadInput();
+                OnBadInput(e.Message);
             }
         }
     }

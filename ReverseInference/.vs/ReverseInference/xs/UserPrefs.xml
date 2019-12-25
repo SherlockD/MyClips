@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{AF85C720-250F-419E-9D1D-34FB83E07011}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReverseInference/Lecser/Lecsems/RunExpertSystemLecsema.cs">
+    <Files>
+      <File FileName="ReverseInference/Program.cs" Line="24" Column="56" />
+      <File FileName="ReverseInference/DiscussTree/DiscussTree.cs" Line="42" Column="59" />
+      <File FileName="ReverseInference/Lecser/Lecsems/RunExpertSystemLecsema.cs" Line="93" Column="33" />
+      <File FileName="ReverseInference/Lecser/Lecsems/LoadRulesFromFileLecsema.cs" Line="40" Column="45" />
+      <File FileName="ReverseInference/Lecser/Lecsems/AddRuleLecsema.cs" Line="22" Column="51" />
+      <File FileName="ReverseInference/DiscussTree/Node.cs" Line="14" Column="1" />
+      <File FileName="ReverseInference/Discuss/Discuss.cs" />
+      <File FileName="ReverseInference/Discuss/Question.cs" />
+      <File FileName="ReverseInference/Lecser/AbstractLecsema.cs" Line="13" Column="36" />
+      <File FileName="ReverseInference/Lecser/Lecsems/GetRulesLecsema.cs" Line="18" Column="52" />
+      <File FileName="ReverseInference/Lecser/Lecsems/PrintTreeLecsema.cs" Line="19" Column="1" />
+      <File FileName="ReverseInference/Lecser/Lecsems/GetHelpLecsema.cs" Line="22" Column="44" />
+      <File FileName="ReverseInference/Lecser/CommandManager.cs" Line="22" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReverseInference" expanded="True">
+            <Node name="ReverseInference" expanded="True">
+              <Node name="Discuss" expanded="True" />
+              <Node name="DiscussTree" expanded="True" />
+              <Node name="Lecser" expanded="True">
+                <Node name="Lecsems" expanded="True">
+                  <Node name="RunExpertSystemLecsema.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ReverseInference PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
